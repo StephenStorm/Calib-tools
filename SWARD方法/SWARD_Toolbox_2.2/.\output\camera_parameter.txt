@@ -1,0 +1,6 @@
+Camera distortion center (centerX,centerY)=
+316.998, 409.746
+Camera distortion parameter k1 =
+-2.1426e-06
+Camera focus length f =
+568.193
