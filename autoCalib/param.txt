@@ -1,0 +1,12 @@
+pred_factor 调整预测下一行/列角点的步进比例
+growChessboard.m line94 | default = 0.75 | now = 0.6
+
+tau 角点得分的下限，该值越高角点筛选越严格
+findCorners.m line 18 | default = 0.01 | now = 0.05
+
+max_std_val 生成初始棋盘时限定的角点间隔相对距离，越低要求角点越近
+initChessboard.m line 54 | default = 0.3 | now = inf
+
+
+
+20190818 data
