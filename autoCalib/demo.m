@@ -9,7 +9,7 @@ tau = 0.08;
 
 % I = imread('front0.jpg');
 
-I = imread('img/20190818/left_0.jpg');
+I = imread('img/20200108/front0.png');
 figure; imshow(uint8(I));
 impixelinfo;
 hold on;
@@ -19,5 +19,5 @@ scatter(corners.p(:,1),corners.p(:,2),'r','filled');
 chessboards = chessboardsFromCorners(corners);
 % chessboardEnergy(chessboards{1},corners)
 [m,n] = size(chessboards{1});
-plotChessboards(chessboards,corners);
+%plotChessboards(chessboards,corners);
 plotCorners(chessboards,corners);
